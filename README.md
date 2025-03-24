@@ -4,7 +4,7 @@ A command-line tool that automatically transcribes videos and generates subtitle
 
 ## Prerequisites
 
-- Python 3.7 or higher
+- Python > 3.7  < 3.13
 - FFmpeg installed on your system
 - `uv` package installer (recommended) or `pip`
 
@@ -26,7 +26,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```bash
 # Create virtual environment
 
-uv venv 
+uv venv --python 3.12
 
 # Or
 
